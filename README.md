@@ -20,13 +20,13 @@ Feature 1 - Display Images
 Estimated Time Needed: 1 hour
 Start Time:8:37 9/22/21
 Finish Time:9:15 9/22/21
-Actual time needed to complete:
+Actual time needed to complete: ~40 Mins
 
 Feature 2 - Allow users to vote for their favorite beast
 Estimated Time Needed: Half Hour
 Start Time:9:15 9/22/21
-Finish Time:
-Actual time needed to complete:
+Finish Time: 9:49 9/22/21
+Actual time needed to complete: ~40 mins
 
 Feature 3 - Bootstrap
 Estimated Time Needed: 2 hours
