@@ -31,5 +31,5 @@ Actual time needed to complete: ~40 mins
 Feature 3 - Bootstrap
 Estimated Time Needed: 2 hours
 Start Time:10:10 9/22/21
-Finish Time:
-Actual time needed to complete:
+Finish Time: 11:15 9/22/21
+Actual time needed to complete: About an hour
