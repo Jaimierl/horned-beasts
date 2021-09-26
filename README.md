@@ -8,7 +8,7 @@ This is an app that uses React to display titles and images. Eventually, it will
 - Images from Unsplash with credit to photographers 
 
 # Reflections:
-The most interesting thing I have learned from this part of the peoject was the circular loop between react pages to have the Main page reference the Horned beast page to feed it information, and the Horned Beast page take the information and format it a certain way.
+The most interesting thing I have learned from this part of the peoject was the circular loop bet/ween react pages to have the Main page reference the Horned beast page to feed it information, and the Horned Beast page take the information and format it a certain way.
 
 Feature
 Estimated Time Needed:
@@ -33,3 +33,9 @@ Estimated Time Needed: 2 hours
 Start Time:10:10 9/22/21
 Finish Time: 11:15 9/22/21
 Actual time needed to complete: About an hour
+
+Feature 4 - Modal
+Estimated Time Needed: 2 hrs
+Start Time:5:13 9/25/21
+Finish Time:
+Actual time needed to complete:

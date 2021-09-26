@@ -13,6 +13,16 @@ class HornedBeast extends React.Component {
     };
   }
 
+  sendSelected = () => {
+    let infoFromBeast = {
+      title: this.props.title,
+      image_url: this.props.image_url,
+      description: this.props.description
+    };
+    console.log('INFO FROM BEAST IN HORNED BEAST PAGE: ', infoFromBeast);
+    this.props.updateBeast(infoFromBeast);
+  }
+
   onAdd = () => {
     this.setState({ numberFavorites: this.state.numberFavorites + 1 });
   }
@@ -31,13 +41,18 @@ class HornedBeast extends React.Component {
     }
   }
 
+  runUpdate = () => {
+    this.props.toggleModal();
+    this.sendSelected();
+  }
+
   render() {
     return (
       <>
-        <div className="beast">
+        <div className="m-2">
 
           <Card style={{ width: '18rem' }} onClick={this.setFave}>
-            <Card.Img variant="top" src={this.props.image_url} />
+            <Card.Img variant="top" src={this.props.image_url} onClick={this.runUpdate} />
             <Card.Body>
               <Card.Title>{this.props.title}</Card.Title>
               <Card.Text>
@@ -50,7 +65,6 @@ class HornedBeast extends React.Component {
               <Button variant="outline-info" className="m-1" onClick={this.onRemove}>Remove</Button>
             </Card.Body>
           </Card>
-
 
         </div>
       </>
