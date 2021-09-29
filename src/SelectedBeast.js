@@ -13,6 +13,11 @@ class SelectedBeast extends React.Component {
               <Modal.Header>
                 <Modal.Title>
                   {this.props.SingleBeastObject.title}</Modal.Title>
+                <img
+                  src={this.props.SingleBeastObject.image_url}
+                  alt={this.props.SingleBeastObject.title}
+                  style={{ width: '300px' }}
+                />
               </Modal.Header>
               <Modal.Footer>
                 <Button variant="secondary" onClick={this.props.hide}>
