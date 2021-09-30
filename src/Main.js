@@ -13,7 +13,8 @@ class Main extends React.Component {
         image_url={beast.image_url}
         description={beast.description}
         toggleModal={this.props.toggleModal}
-        updateBeast={this.props.updateBeast} />
+        updateBeast={this.props.updateBeast}
+        hornNumber={beast.horns} />
     )
     console.log('Main Props: ', this.props);
     return (
